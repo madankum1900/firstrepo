@@ -1,0 +1,23 @@
+Git installation:
+# sudo apt update
+# sudo apt install git
+# git --version
+
+Setup git:
+# git config --global user.name "Your Name"
+# git config --global user.email "youremail@domain.com"
+# git init
+
+
+1.To add file:
+# git add filename
+
+
+2.To check working tree status:
+# git status
+
+3.To commit staged files to local repository:
+# git commit -m "commit message"
+
+4. Push code to remote repo
+# git push origin <branch name>
