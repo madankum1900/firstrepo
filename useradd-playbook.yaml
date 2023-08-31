@@ -1,9 +1,0 @@
----
-- name: Ansible playbook to add user
-  hosts: ansible-worker1
-  become: yes
-  tasks:
-   - name: Add the user
-     user:
-      name: "joe"
-      state: present
